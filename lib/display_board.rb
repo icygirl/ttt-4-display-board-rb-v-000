@@ -24,6 +24,6 @@ def display_board(board)
   print pipe
   print " #{board[7]} "
   print pipe
-  print " #{board[8]}"
+  print " #{board[8]} "
   puts
 end
