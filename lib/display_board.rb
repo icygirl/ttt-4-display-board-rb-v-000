@@ -1,21 +1,17 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-def display_board
-  cell = "   "
-  pipe = "|"
-  seperator = "-----------"
-  print cell, pipe, cell, pipe, cell
-  puts
-  puts seperator
-  print cell, pipe, cell, pipe, cell
-  puts
-  puts seperator
-  print cell, pipe, cell, pipe, cell
-  puts
-end
-
 board = ["","","","","","","","",""]
 
 def display_board(board)
-  puts "#{board[0]} #{board[1]} #{board[2]} #{board[3]} #{board[4]} #{board[5]} #{board[6]} #{board[7]} #{board[8]}"
+  cell = "   "
+  pipe = "|"
+  seperator = "-----------"
+  print "#{board[0]} , pipe, #{board[1]} , pipe, #{board[2]}"
+  puts
+  puts seperator
+  print "#{board[3]} , pipe, #{board[4]} , pipe, #{board[5]}"
+  puts
+  puts seperator
+  print "#{board[6]} , pipe, #{board[7]} , pipe, #{board[8]}"
+  puts
 end
