@@ -6,12 +6,24 @@ def display_board(board)
   cell = "   "
   pipe = "|"
   seperator = "-----------"
-  print "#{board[0]} , pipe, #{board[1]} , pipe, #{board[2]}"
+  print " #{board[0]} "
+  print pipe
+  print " #{board[1]} "
+  print pipe
+  print " #{board[2]} "
   puts
   puts seperator
-  print "#{board[3]} , pipe, #{board[4]} , pipe, #{board[5]}"
+  print " #{board[3]} "
+  print pipe
+  print " #{board[4]} "
+  print pipe
+  print " #{board[5]} "
   puts
   puts seperator
-  print "#{board[6]} , pipe, #{board[7]} , pipe, #{board[8]}"
+  print " #{board[6]} "
+  print pipe
+  print " #{board[7]} "
+  print pipe
+  print " #{board[8]}"
   puts
 end
